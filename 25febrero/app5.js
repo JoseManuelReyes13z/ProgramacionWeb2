@@ -14,7 +14,7 @@ console.log(compara); */
 /*
 var compara = 5>2 && 6 !== 8;
 console.log(compara); */
-
+// Programa que me de los valores de un or y un and, es decir cuando uno es ambos dan 0 da falso, cuando ambos son 1 da verdadero etc pa ambos casos
 var and1, and2, resultado;
 and1 = 0;
 and2 = 0;
