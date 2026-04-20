@@ -13,3 +13,14 @@ function calcularResultado() {
 
     }
 }
+
+document.addEventListener("keydown", function(event) {
+    const tecla = event.key;
+    if ((tecla >= '0' && tecla <= '9') || ['+', '-', '*', '/', '.'].includes(tecla)) {
+        agregarPantalla(tecla);
+    } else if (tecla === 'Enter') {
+        calcularResultado();
+    } else if (tecla === 'Backspace') {
+        limpiarPantalla();
+    }
+});
